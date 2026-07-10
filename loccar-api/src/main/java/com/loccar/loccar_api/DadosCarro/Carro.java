@@ -1,4 +1,4 @@
-package DadosCarro;
+package com.loccar.loccar_api.DadosCarro;
 
 
 import jakarta.persistence.*;
@@ -36,6 +36,9 @@ public class Carro {
         this.ano = dados.ano();
         this.placa = dados.placa();
         this.ativo = true;
+    }
+    public void excluir() {
+        this.ativo = false;
     }
 }
 

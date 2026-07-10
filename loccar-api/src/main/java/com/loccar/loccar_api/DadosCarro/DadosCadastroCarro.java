@@ -1,4 +1,4 @@
-package DadosCarro;
+package com.loccar.loccar_api.DadosCarro;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
